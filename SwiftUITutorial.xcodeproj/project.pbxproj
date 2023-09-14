@@ -14,6 +14,8 @@
 		F25650492AA596EB00DD553B /* SwiftUITutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25650482AA596EB00DD553B /* SwiftUITutorialTests.swift */; };
 		F25650532AA596EB00DD553B /* SwiftUITutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25650522AA596EB00DD553B /* SwiftUITutorialUITests.swift */; };
 		F25650552AA596EB00DD553B /* SwiftUITutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25650542AA596EB00DD553B /* SwiftUITutorialUITestsLaunchTests.swift */; };
+		F25650622AA95E0000DD553B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25650612AA95E0000DD553B /* CircleImage.swift */; };
+		F25650642AB2BBA300DD553B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25650632AB2BBA300DD553B /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F256504E2AA596EB00DD553B /* SwiftUITutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25650522AA596EB00DD553B /* SwiftUITutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialUITests.swift; sourceTree = "<group>"; };
 		F25650542AA596EB00DD553B /* SwiftUITutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F25650612AA95E0000DD553B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F25650632AB2BBA300DD553B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				F25650372AA596E900DD553B /* SwiftUITutorialApp.swift */,
 				F25650392AA596E900DD553B /* ContentView.swift */,
 				F256503B2AA596EA00DD553B /* Assets.xcassets */,
+				F25650612AA95E0000DD553B /* CircleImage.swift */,
+				F25650632AB2BBA300DD553B /* MapView.swift */,
 				F256503D2AA596EA00DD553B /* Preview Content */,
 			);
 			path = SwiftUITutorial;
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F256503A2AA596E900DD553B /* ContentView.swift in Sources */,
+				F25650642AB2BBA300DD553B /* MapView.swift in Sources */,
 				F25650382AA596E900DD553B /* SwiftUITutorialApp.swift in Sources */,
+				F25650622AA95E0000DD553B /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
